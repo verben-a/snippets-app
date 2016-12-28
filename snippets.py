@@ -10,7 +10,7 @@ def put(name, snippet):
     Returns the name and the snippet
     """
     logging.error("FIXME: Unimplemented - put({!r}, {!r})".format(name, snippet))
-    return name, snippet
+    return name, snippet # returning a tuple (kind of an immutable list)
     
 def get(name):
     """Retrieve the snippet with a given name.
@@ -34,11 +34,16 @@ def main():
     put_parser = subparsers.add_parser("put", help="Store a snippet")
     put_parser.add_argument("name", help="Name of the snippet")
     put_parser.add_argument("snippet", help="Snippet text")
-
+    
+    # similar to put
+    get_parser = subparsers.add_parser("get", help="Retrieve the snippet")
+    get_parser.add_argument("name", help="Name of the snippet")
+    
+    
     arguments = parser.parse_args()
     # Convert parsed arguments from Namespace to dictionary
     arguments = vars(arguments)
-    command = arguments.pop("command")
+    command = arguments.pop("command") ## removed and stored in command variable
 
     if command == "put":
         name, snippet = put(**arguments)
@@ -46,5 +51,8 @@ def main():
     elif command == "get":
         snippet = get(**arguments)
         print("Retrieved snippet: {!r}".format(snippet))
+        
+if __name__ == "__main__":
+    main()
 
   
