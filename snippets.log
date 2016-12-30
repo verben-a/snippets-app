@@ -30,3 +30,63 @@ ERROR:root:FIXME: Unimplemented - get('oranges')
 DEBUG:root:Connecting to PostgreSQL
 DEBUG:root:Connecting to PostgreSQL
 DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Storing snippet 'Test': 'Test commit'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - get('Test')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Storing snippet 'Test': 'Not a test commit'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Storing snippet 'Test': 'Not a test commit'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Storing snippet 'New': 'New commit'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - get('New')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Storing snippet 'NEW': 'NEW COMMIT'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - get('NEW')
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Storing snippet 'NEW': 'NEW COMMIT'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - get('NEW')
